@@ -15,7 +15,7 @@ import javax.ws.rs.core.Context;
 import javax.ws.rs.core.SecurityContext;
 
 @Path("/common")
-public class CommonResourceForAuthorisedUsers {
+public class GreetingResource {
 
     /*
      * fixme not sure if it is the best implementation of this logic

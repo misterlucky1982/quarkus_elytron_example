@@ -1,4 +1,4 @@
-package nby.misterlucky.quarkus;
+package nby.misterlucky.quarkus.web;
 
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 
