@@ -1,8 +1,16 @@
-# elytron-rest-example
+# security-example
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+This is simple example of implementing security in quarkus
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
+
+## prerequisites
+Assume that you have DB running.
+
+DB connection`s settings defined in application.properties
+
+In the file scripts.sql some scripts are written which you have to execute before running application
+
 
 ## Running the application in dev mode
 
