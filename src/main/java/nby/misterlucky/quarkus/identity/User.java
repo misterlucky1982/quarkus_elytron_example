@@ -33,7 +33,7 @@ public class User extends PanacheEntity {
     public String email;
 
     public static User findByLogin(String login) {
-        return (User) find("login", login).singleResultOptional().orElseThrow(RuntimeException::new);
+        return (User) find("login", login).singleResultOptional().orElseThrow(NoSuchUserIdentityException::new);
     }
 
 }
